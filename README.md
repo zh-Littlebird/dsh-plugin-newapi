@@ -268,6 +268,6 @@ node tests/run.mjs
 
 ## 8. 兼容性
 
-- 本插件在 DSH `0.2.2-rc.1`、Node `24.12.0`、Windows 11 上验证。
+- 已验证环境：DSH `0.2.2-rc.1`、Node `24.x`、Windows 11；Linux/macOS 未实测。
 - 不导入任何 `@deepseek-ai/*` 运行时包；工具定义直接使用 Harness 接受的 JSON Schema 子集（`type/oneOf/properties/required/additionalProperties/items/enum/const` + 注解）。
 - 插件只依赖全局 `fetch`、`AbortSignal.timeout`/`AbortSignal.any`（Node 22.19+）与 `node:fs`、`node:crypto`。
