@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "New API gateway",
+    "description": "Brings New API models, chat, tokens, channels, and logs to the agent, with a Settings → New API page for the gateway address and credentials."
+  }
+}

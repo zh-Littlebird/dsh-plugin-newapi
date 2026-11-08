@@ -1,0 +1,11 @@
+- insert:
+    - id: newapi
+      name: dsh-plugin-newapi
+      config:
+        baseUrl: ''
+        secretsBackend: auto
+        timeoutMs: 120000
+        maxResponseBytes: 8388608
+        allowManagementWrites: true
+        audit: true
+        debug: false
